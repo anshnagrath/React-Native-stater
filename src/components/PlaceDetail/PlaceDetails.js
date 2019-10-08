@@ -3,6 +3,7 @@ import {Modal,View,Image,Text,Button,StyleSheet} from 'react-native';
 
 const PlaceDetail = props => {
 let modalContent = null
+console.log(props,'cscdsd')
 if(props.selectedPlace){
     modalContent = (
         <View>

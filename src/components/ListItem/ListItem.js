@@ -1,11 +1,11 @@
 import React from 'react';
 import {Text,View,StyleSheet,TouchableOpacity,Image} from 'react-native';
 const ListItem = (prop)=>{
-    console.log(prop,'csdcssss')
+    console.log(prop,'prororros')
     return(
         <TouchableOpacity onPress={prop.selectedItem}>
         <View style={styles.listItem}>
-            <Image resizeMode="contain" styles={styles.placeImage} source = {prop.placeImage}/>
+            
             <Text>
                 {prop.placeName.value}
             </Text>
